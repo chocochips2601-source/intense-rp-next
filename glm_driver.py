@@ -96,6 +96,8 @@ class GLMDriver(BaseDriver):
     MODEL_DROPDOWN_SELECTOR = f"div#{MODEL_DROPDOWN_ID}"
     MODEL_OPTION_SELECTOR = "button[aria-label='model-item'][data-value], div[role='menu'] button[data-value]"
     MODEL_DATA_VALUE_BY_FRIENDLY: Dict[str, str] = {
+        "GLM-5.3": "glm-5.3",
+        "GLM-5.3-Flash": "x-preview-l",
         "GLM-5.2": "glm-5.2",
         "GLM-5.1": "GLM-5.1",
         "GLM-5-Turbo": "GLM-5-Turbo",
